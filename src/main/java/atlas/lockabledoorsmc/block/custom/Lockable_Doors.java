@@ -13,15 +13,18 @@ import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
 
 public class Lockable_Doors extends DoorBlock {
-    private BlockSetType type;
+
+    private final BlockSetType blockSetType;
 
     public Lockable_Doors(BlockSetType type, Settings settings) {
         super(type, settings);
+        this.blockSetType = type;
     }
+
 
     private void playOpenCloseSound(@Nullable Entity entity, World world, BlockPos pos, boolean open) {
         world.playSound(
-                entity, pos, open ? this.type.doorOpen() : this.type.doorClose(), SoundCategory.BLOCKS, 1.0F, world.getRandom().nextFloat() * 0.1F + 0.9F
+                entity, pos, open ? this.blockSetType.doorOpen() : this.blockSetType.doorClose(), SoundCategory.BLOCKS, 1.0F, world.getRandom().nextFloat() * 0.1F + 0.9F
         );
     }
 

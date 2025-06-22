@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_right_open",
-  "textures": {
-    "bottom": "lockable-doors-mc:block/lockable-oak-door_bottom",
-    "top": "lockable-doors-mc:block/lockable-oak-door_top"
-  }
-}

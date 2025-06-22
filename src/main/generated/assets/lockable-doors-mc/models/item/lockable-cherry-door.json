@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "lockable-doors-mc:item/lockable-cherry-door"
-  }
-}

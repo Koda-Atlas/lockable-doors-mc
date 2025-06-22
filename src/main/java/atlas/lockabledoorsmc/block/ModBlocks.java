@@ -37,7 +37,8 @@ public class ModBlocks {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(LockableDoorsMC.MOD_ID, name));
     }
 
-    public static final Block LOCKABLE_IRON_DOOR = register("lockable-iron-door",
+    public static final Block LOCKABLE_IRON_DOOR = register(
+            "lockable-iron-door",
             properties -> new Lockable_Doors(BlockSetType.IRON,
                     properties.sounds(BlockSoundGroup.IRON).requiresTool().nonOpaque()),
             true);
