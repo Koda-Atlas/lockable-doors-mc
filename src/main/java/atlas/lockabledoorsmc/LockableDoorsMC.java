@@ -1,5 +1,8 @@
 package atlas.lockabledoorsmc;
 
+import atlas.lockabledoorsmc.block.ModBlocks;
+import atlas.lockabledoorsmc.item.ModItemGroups;
+import atlas.lockabledoorsmc.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class LockableDoorsMC implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.initialize();
+		ModItems.initialize();
+		ModBlocks.initialize();
 	}
 }

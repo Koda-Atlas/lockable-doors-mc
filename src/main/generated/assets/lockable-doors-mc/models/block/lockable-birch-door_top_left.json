@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "lockable-doors-mc:block/lockable-birch-door_bottom",
+    "top": "lockable-doors-mc:block/lockable-birch-door_top"
+  }
+}

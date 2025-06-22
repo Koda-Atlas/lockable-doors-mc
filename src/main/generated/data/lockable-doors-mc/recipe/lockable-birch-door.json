@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": "minecraft:birch_planks",
+    "G": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "DD ",
+    "DDG",
+    "DD "
+  ],
+  "result": {
+    "count": 1,
+    "id": "lockable-doors-mc:lockable-birch-door"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "lockable-doors-mc:block/lockable-bamboo-door_bottom",
+    "top": "lockable-doors-mc:block/lockable-bamboo-door_top"
+  }
+}

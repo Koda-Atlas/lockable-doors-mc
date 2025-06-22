@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "lockable-doors-mc:block/lockable-acacia-door_bottom",
+    "top": "lockable-doors-mc:block/lockable-acacia-door_top"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "lockable-doors-mc:item/lockable-dark-oak-door"
+  }
+}
