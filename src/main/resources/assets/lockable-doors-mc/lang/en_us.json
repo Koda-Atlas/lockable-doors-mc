@@ -2,6 +2,18 @@
   "itemGroup.lockable-doors-mc": "Lockable Doors",
 
   "item.lockable-doors-mc.key": "Key",
+  "item.lockable-doors-mc.lockable-iron-door": "Lockable Iron Door",
+  "item.lockable-doors-mc.lockable-oak-door": "Lockable Oak Door",
+  "item.lockable-doors-mc.lockable-spruce-door": "Lockable Spruce Door",
+  "item.lockable-doors-mc.lockable-birch-door": "Lockable Birch Door",
+  "item.lockable-doors-mc.lockable-jungle-door": "Lockable Jungle Door",
+  "item.lockable-doors-mc.lockable-acacia-door": "Lockable Acacia Door",
+  "item.lockable-doors-mc.lockable-dark-oak-door": "Lockable Dark Oak Door",
+  "item.lockable-doors-mc.lockable-mangrove-door": "Lockable Mangrove Door",
+  "item.lockable-doors-mc.lockable-cherry-door": "Lockable Cherry Door",
+  "item.lockable-doors-mc.lockable-bamboo-door": "Lockable Bamboo Door",
+  "item.lockable-doors-mc.lockable-crimson-door": "Lockable Crimson Door",
+  "item.lockable-doors-mc.lockable-warped-door": "Lockable Warped Door",
 
   "block.lockable-doors-mc.lockable-iron-door": "Lockable Iron Door",
   "block.lockable-doors-mc.lockable-oak-door": "Lockable Oak Door",

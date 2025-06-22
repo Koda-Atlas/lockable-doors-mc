@@ -11,6 +11,8 @@ e3e64d56f83e01bb2438830e02d7d9f344b12d90 data/lockable-doors-mc/advancement/reci
 78171d73986ad46a50710dfbfe0e68e3200e3a48 data/lockable-doors-mc/advancement/recipes/building_blocks/lockable-oak-door.json
 406115de3e4e2d33554ae3a178711720510880d4 data/lockable-doors-mc/advancement/recipes/building_blocks/lockable-spruce-door.json
 2fd00213cf25b5e32a9d094d733ceb641af25a7e data/lockable-doors-mc/advancement/recipes/building_blocks/lockable-warped-door.json
+a8f2a99e13a980628b6cba23fae22933f2050a51 data/lockable-doors-mc/advancement/recipes/misc/key.json
+47d08cfeb742eff5dee370723760aaa6c2f19ea0 data/lockable-doors-mc/recipe/key.json
 e21b1a1b1a0f93bf485cd412da0b2c686cd24f5b data/lockable-doors-mc/recipe/lockable-acacia-door.json
 078e821c94d6059b85b489fdb1f8ad0c0995af5e data/lockable-doors-mc/recipe/lockable-bamboo-door.json
 ae33732c69029d7acb80df45c4a11ef5e644aefd data/lockable-doors-mc/recipe/lockable-birch-door.json

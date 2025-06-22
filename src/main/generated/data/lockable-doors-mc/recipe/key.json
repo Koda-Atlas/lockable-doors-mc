@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "N": "minecraft:gold_nugget"
+  },
+  "pattern": [
+    " N",
+    "G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "lockable-doors-mc:key"
+  }
+}

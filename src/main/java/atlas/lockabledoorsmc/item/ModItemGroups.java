@@ -17,7 +17,7 @@ public class ModItemGroups {
 
     public static final ItemGroup LOCKABLE_DOORS_MC = FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.UNLOCKING_KEY))
             .icon(() -> new ItemStack(ModItems.UNLOCKING_KEY))
-            .displayName(Text.translatable("itemGroup.lockable_doors_mc"))
+            .displayName(Text.translatable("itemGroup.lockable-doors-mc"))
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.UNLOCKING_KEY);
 
@@ -29,13 +29,10 @@ public class ModItemGroups {
                 entries.add(ModBlocks.LOCKABLE_DARK_OAK_DOOR);
                 entries.add(ModBlocks.LOCKABLE_IRON_DOOR);
                 entries.add(ModBlocks.LOCKABLE_JUNGLE_DOOR);
-                entries.add(ModBlocks.LOCKABLE_IRON_DOOR);
                 entries.add(ModBlocks.LOCKABLE_MANGROVE_DOOR);
                 entries.add(ModBlocks.LOCKABLE_OAK_DOOR);
                 entries.add(ModBlocks.LOCKABLE_SPRUCE_DOOR);
                 entries.add(ModBlocks.LOCKABLE_WARPED_DOOR);
-                entries.add(ModBlocks.LOCKABLE_IRON_DOOR);
-                entries.add(ModBlocks.LOCKABLE_IRON_DOOR);
 
 
             }).build();
