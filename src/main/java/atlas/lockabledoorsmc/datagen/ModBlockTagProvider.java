@@ -21,6 +21,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         valueLookupBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.LOCKABLE_IRON_DOOR);
+
+        valueLookupBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.LOCKABLE_ACACIA_DOOR)
+                .add(ModBlocks.LOCKABLE_BAMBOO_DOOR)
+                .add(ModBlocks.LOCKABLE_BIRCH_DOOR)
+                .add(ModBlocks.LOCKABLE_CHERRY_DOOR)
+                .add(ModBlocks.LOCKABLE_CRIMSON_DOOR)
+                .add(ModBlocks.LOCKABLE_DARK_OAK_DOOR)
+                .add(ModBlocks.LOCKABLE_JUNGLE_DOOR)
+                .add(ModBlocks.LOCKABLE_MANGROVE_DOOR)
+                .add(ModBlocks.LOCKABLE_OAK_DOOR)
+                .add(ModBlocks.LOCKABLE_SPRUCE_DOOR)
+                .add(ModBlocks.LOCKABLE_WARPED_DOOR);
     }
 
 }

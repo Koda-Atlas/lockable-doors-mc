@@ -1,6 +1,7 @@
 package atlas.lockabledoorsmc.datagen;
 
 import atlas.lockabledoorsmc.block.ModBlocks;
+import atlas.lockabledoorsmc.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Block;
@@ -119,6 +120,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('D', Blocks.WARPED_PLANKS)
                         .input('G', Items.GOLD_INGOT)
                         .criterion(hasItem(Items.WARPED_DOOR), conditionsFromItem(Items.WARPED_DOOR))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModItems.UNLOCKING_KEY)
+                        .pattern(" N")
+                        .pattern("G ")
+                        .input('N', Items.GOLD_NUGGET)
+                        .input('G', Items.GOLD_INGOT)
+                        .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                         .offerTo(exporter);
             }
         };

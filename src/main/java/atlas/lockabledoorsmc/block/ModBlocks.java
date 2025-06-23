@@ -40,77 +40,77 @@ public class ModBlocks {
     public static final Block LOCKABLE_IRON_DOOR = register(
             "lockable-iron-door",
             properties -> new Lockable_Doors(BlockSetType.IRON,
-                    properties.sounds(BlockSoundGroup.IRON).requiresTool().nonOpaque()),
+                    properties.sounds(BlockSoundGroup.IRON).nonOpaque().strength(5f, 5f).requiresTool()),
             true);
 
     public static final Block LOCKABLE_OAK_DOOR = register(
             "lockable-oak-door",
             properties -> new Lockable_Doors(BlockSetType.OAK,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_SPRUCE_DOOR = register(
             "lockable-spruce-door",
             properties -> new Lockable_Doors(BlockSetType.SPRUCE,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_BIRCH_DOOR = register(
             "lockable-birch-door",
             properties -> new Lockable_Doors(BlockSetType.BIRCH,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_JUNGLE_DOOR = register(
             "lockable-jungle-door",
             properties -> new Lockable_Doors(BlockSetType.JUNGLE,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_ACACIA_DOOR = register(
             "lockable-acacia-door",
             properties -> new Lockable_Doors(BlockSetType.ACACIA,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_DARK_OAK_DOOR = register(
             "lockable-dark-oak-door",
             properties -> new Lockable_Doors(BlockSetType.DARK_OAK,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_MANGROVE_DOOR = register(
             "lockable-mangrove-door",
             properties -> new Lockable_Doors(BlockSetType.MANGROVE,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_CHERRY_DOOR = register(
             "lockable-cherry-door",
             properties -> new Lockable_Doors(BlockSetType.CHERRY,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_BAMBOO_DOOR = register(
             "lockable-bamboo-door",
             properties -> new Lockable_Doors(BlockSetType.BAMBOO,
-                    properties.sounds(BlockSoundGroup.BAMBOO).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.BAMBOO).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_CRIMSON_DOOR = register(
             "lockable-crimson-door",
             properties -> new Lockable_Doors(BlockSetType.CRIMSON,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
     public static final Block LOCKABLE_WARPED_DOOR = register(
             "lockable-warped-door",
             properties -> new Lockable_Doors(BlockSetType.WARPED,
-                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque()),
+                    properties.sounds(BlockSoundGroup.WOOD).nonOpaque().strength(3f, 3f)),
             true
     );
 
-    //Will add copper at a later date.
+    //Will add copper and pale oak at a later date.
 
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ModItemGroups.LOCKABLE_DOORS_MC_KEY).register((itemGroup) -> {

@@ -1,3 +1,4 @@
 // 1.21.6	-999999999-01-01T00:00:00	Lockable Doors MC/Tags for minecraft:block
+a28bf4f19e10252eec6cc779106f8759481b62a4 data/minecraft/tags/block/mineable/axe.json
 4786d802159fcf0d8aae98014fe8461fbaa352b6 data/minecraft/tags/block/mineable/pickaxe.json
 4786d802159fcf0d8aae98014fe8461fbaa352b6 data/minecraft/tags/block/needs_stone_tool.json
